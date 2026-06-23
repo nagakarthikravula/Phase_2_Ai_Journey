@@ -6,7 +6,6 @@ load_dotenv()
 
 api_key = os.getenv("GEMINI_API_KEY")
 
-
 rude_config = genai.types.GenerateContentConfig(
     system_instruction='''You are a comedy writer. 
    When given a topic, respond with exactly one 
