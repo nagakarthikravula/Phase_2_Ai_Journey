@@ -33,3 +33,4 @@ response3 = client.models.generate_content(
 print("Joke 1: ", response1.text)
 print("Joke 2: ", response2.text)
 print("Joke 3: ", response3.text)
+
